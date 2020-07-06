@@ -1,0 +1,9 @@
+.title-view {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.77px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: 3px solid red;
+  width: fit-content;
+}
