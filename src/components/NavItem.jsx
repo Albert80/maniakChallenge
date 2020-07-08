@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 
 
 function NavItem({route, children}) {
+  console.log('route > ',route)
   return(
     <li className="menu-item">
+      <span className="nav-indicator" />
       <Link
-        to={route}
+        to={`/${route}`}
       >
-        <span className="nav-indicator" />
         {children}
       </Link>
     </li>
