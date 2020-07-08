@@ -1,0 +1,38 @@
+.result-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row; */
+  width: inherit;
+}
+
+.dollar-sign, .result-number {
+  font-family: Roboto;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  color: #071eb3;
+  height: fit-content;
+}
+
+.dollar-sign {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+}
+
+.result-number {
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+/* 
+font-family: Roboto;
+font-size: 72px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: 1px;
+text-align: right;
+color: #071eb3; */
