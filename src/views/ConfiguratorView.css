@@ -1,0 +1,27 @@
+.configurator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border: 1px solid orangered;
+}
+
+.configurator-content {
+  border: 1px solid red;
+  max-width: min-content;
+}
+
+.title-view {
+  white-space: pre-line;
+}
+
+.configurator-calculator {
+  border: 1px solid green;
+}
+
+/* pre::before {
+  content: "";
+  background-color: var(--ice-blue);
+  color: var(--ice-blue);
+} */
