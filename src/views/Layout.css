@@ -1,5 +1,5 @@
 .layout-container {
-  max-width: 100vw;
+  max-width: 1440px;
   width: 100vw;
   min-height: calc(100vh - 64px);
   background-color: var(--ice-blue);
