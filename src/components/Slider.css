@@ -13,12 +13,14 @@
   line-height: 48px;
   letter-spacing: 0;
   margin: 0;
+  width: max-content;
 }
 
 .slider-position {
   font-size: 14px;
   color: var(--greyish);
   margin: 0;
+  width: max-content;
 }
 
 .slider-comment {
@@ -48,11 +50,14 @@
   font-family: 'Cormorant Garamond', serif;
 }
 
-.slider-btn {
-  padding: 19px 20px 19px 20px;
-}
-
 .slider-pagination-counter, .slider-btn {
   color: var(--white);
   background-color: var(--blue);
+}
+
+.slider-button {
+  padding: 19px 20px 19px 20px;
+  background-color: var(--blue);
+  box-shadow: none;
+  border: 0;
 }
