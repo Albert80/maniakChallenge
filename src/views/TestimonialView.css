@@ -1,2 +1,4 @@
 .testimonial-container {
+  max-width: 100vw;
+  width: fit-content;
 }
